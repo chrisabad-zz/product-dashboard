@@ -1,0 +1,303 @@
+
+/* Typography
+========================================*/
+
+/* Montserrat */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat-Regular'), url(http://fonts.gstatic.com/s/montserrat/v6/zhcz-_WihjSQC0oHJ9TCYAzyDMXhdD8sAj6OAJTFsBI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+  }
+
+/* Montserrat (bold) */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Montserrat-Bold'), url(http://fonts.gstatic.com/s/montserrat/v6/IQHow_FEYlDC4Gzy_m8fcmaVI6zN22yiurzcBKxPjFE.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+  }
+
+
+/* PT Serif */
+@font-face {
+  font-family: 'PT Serif';
+  font-style: italic;
+  font-weight: 400;
+  src: local('PT Serif Italic'), local('PTSerif-Italic'), url(http://fonts.gstatic.com/s/ptserif/v8/O_WhD9hODL16N4KLHLX7xQsYbbCjybiHxArTLjt7FRU.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+  }
+
+@font-face {
+  font-family: 'PT Serif';
+  font-style: italic;
+  font-weight: 400;
+  src: local('PT Serif Italic'), local('PTSerif-Italic'), url(http://fonts.gstatic.com/s/ptserif/v8/3Nwg9VzlwLXPq3fNKwVRMAsYbbCjybiHxArTLjt7FRU.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  }
+
+@font-face {
+  font-family: 'PT Serif';
+  font-style: italic;
+  font-weight: 400;
+  src: local('PT Serif Italic'), local('PTSerif-Italic'), url(http://fonts.gstatic.com/s/ptserif/v8/b31S45a_TNgaBApZhTgE6AsYbbCjybiHxArTLjt7FRU.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+  }
+
+@font-face {
+  font-family: 'PT Serif';
+  font-style: italic;
+  font-weight: 400;
+  src: local('PT Serif Italic'), local('PTSerif-Italic'), url(http://fonts.gstatic.com/s/ptserif/v8/03aPdn7fFF3H6ngCgAlQzAzyDMXhdD8sAj6OAJTFsBI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+  }
+
+
+/* Dashboard Page
+========================================*/
+
+.product-dashboard {
+  background-color: #27282A;
+  color: #838D8F;
+  font-family: "Montserrat";
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 1.5em;
+  padding: 50px;
+  text-align: center;
+  }
+
+.product-dashboard b,
+.product-dashboard strong { font-weight: 700; }
+
+.product-dashboard i,
+.product-dashboard em { font-family: "PT Serif"; }
+
+.product-dashboard table {
+  background-color: #fff;
+  border-collapse: separate;
+  /*border: 1px solid #eee;*/
+  border: 0;
+  border-radius: 4px;
+  border-spacing: 0;
+  margin-bottom: 0;
+  padding: 0;
+  width: 100%;
+
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  }
+
+.product-dashboard table td {
+  border-color: #EEEEEE;
+  border-width: 1px 0 0 0;
+  padding: 20px 17px;
+  vertical-align: middle;
+  }
+
+.product-dashboard table td p { margin: 0; }
+
+.product-dashboard table.confluenceTable th.confluenceTh,
+.product-dashboard table.confluenceTable th.confluenceTh .tablesorter-header-inner,
+.product-dashboard table.tablesorter > thead > tr > th {
+  background-color: transparent;
+  border: 0;
+  color: #838D8F;
+  font-family: "PT Serif";
+  font-style: italic;
+  font-size: 12px;
+  font-weight: 400;
+  }
+
+.product-dashboard table.confluenceTable th.confluenceTh,
+.product-dashboard table.tablesorter > thead > tr > th { padding: 11px 17px; }
+
+.product-dashboard table.confluenceTable th.confluenceTh:nth-child(1),
+.product-dashboard table.confluenceTable th.confluenceTh:nth-child(1) .tablesorter-header-inner {
+  color: #3C3D41;
+  font-family: "Montserrat";
+  font-size: 11px;
+  font-style: normal;
+  text-transform: uppercase;
+  font-weight: 700;
+  }
+
+.product-dashboard table tr { padding: 0; }
+
+
+/* Dashboard Page – Themes & Metrics
+========================================*/
+
+.product-dashboard .dashboard-themes-and-metrics {
+  margin: 0 auto 20px auto;
+  max-width: 982px;
+  }
+
+.product-dashboard .dashboard-themes-and-metrics table.confluenceTable tr td { font-size: 12px; }
+
+.product-dashboard .dashboard-themes-and-metrics table.confluenceTable tr td strong {
+  color: #3C3D41;
+  font-size: 24px;
+  line-height: 1.1em;
+  }
+
+.product-dashboard .dashboard-themes-and-metrics table.confluenceTable tr td {
+  border-width: 0 1px 0 0;
+  padding: 20px 25px;
+  }
+
+.product-dashboard .dashboard-themes-and-metrics table.confluenceTable tr:nth-child(2) td {
+  background-image: url("https://dl.dropboxusercontent.com/u/398106089/product-dashboard/images/icons/runner.png");
+  background-position: 25px center;
+  background-repeat: no-repeat;
+  font-size: 10px;
+  line-height: 1.2em;
+  padding-left: 51px;
+  text-transform: uppercase;
+  width: 33.33%;
+  }
+
+.product-dashboard .dashboard-themes-and-metrics table.confluenceTable tr:nth-child(2) td:nth-child(1) {
+  background-image: url("https://dl.dropboxusercontent.com/u/398106089/product-dashboard/images/icons/runner-color.png");
+  border-top: 5px solid #D9A34A;
+  }
+
+.product-dashboard .dashboard-themes-and-metrics table.confluenceTable tr:nth-child(2) td:nth-child(2) {
+  background-image: url("https://dl.dropboxusercontent.com/u/398106089/product-dashboard/images/icons/tools-color.png");
+  border-top: 5px solid #EA8BFF;
+  }
+
+.product-dashboard .dashboard-themes-and-metrics table.confluenceTable tr:nth-child(2) td:nth-child(3) {
+  background-image: url("https://dl.dropboxusercontent.com/u/398106089/product-dashboard/images/icons/bigger-color.png");
+  border-top: 5px solid #6848E1;
+  }
+
+
+.product-dashboard .dashboard-themes-and-metrics table.confluenceTable tr:nth-child(3) td { padding: 0 25px 30px 25px; }
+
+.product-dashboard .dashboard-themes-and-metrics table.confluenceTable tr:nth-child(3) td:nth-child(1),
+.product-dashboard .dashboard-themes-and-metrics table.confluenceTable tr:nth-child(3) td:nth-child(3),
+.product-dashboard .dashboard-themes-and-metrics table.confluenceTable tr:nth-child(3) td:nth-child(5),
+.product-dashboard .dashboard-themes-and-metrics table.confluenceTable tr:nth-child(3) td:nth-child(6) { border-right: 0; }
+
+.product-dashboard .dashboard-themes-and-metrics table.confluenceTable tr th {
+  border-color: #eee;
+  border-style: solid;
+  border-width: 0 0 1px 0;
+  }
+
+
+/* Dashboard Page – Status Board
+========================================*/
+
+.product-dashboard .dashboard-status {
+  margin: 0 auto 20px auto;
+  max-width: 982px;
+  }
+
+.product-dashboard .dashboard-status img.userLogo {
+  border-radius: 16px;
+  height: 32px;
+  margin-right: 5px;
+  margin-top: -16px;
+  position: relative;
+  top: 50%;
+  width: 32px;
+
+  -moz-border-radius: 16px;
+  -webkit-border-radius: 16px;
+  }
+
+.product-dashboard .dashboard-status .theme {
+  height: 100%;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  text-indent: -5000px;
+  top: 0;
+  width: 100%;
+  }
+
+.product-dashboard .dashboard-status .theme.amazing-first-run { background-color: #D9A34A; }
+.product-dashboard .dashboard-status .theme.email-builder { background-color: #EA8BFF; }
+.product-dashboard .dashboard-status .theme.grow-footprint { background-color: #6848E1; }
+
+.product-dashboard .dashboard-status .userLogoLink {
+  display: inline-block;
+  height: 32px;
+  line-height: 1em;
+  position: relative;
+  }
+
+.product-dashboard .dashboard-status td:last-child s,
+.product-dashboard .dashboard-status td:last-child span[style="text-decoration: line-through;"] {
+  background-image: url("https://dl.dropboxusercontent.com/u/398106089/product-dashboard/images/icons/check.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+  height: 32px;
+  overflow: hidden;
+  text-indent: -5000px;
+  width: 32px;
+  }
+
+.product-dashboard .dashboard-status td:nth-child(1) {
+  padding: 0;
+  position: relative;
+  width: 5px;
+  }
+
+.product-dashboard .dashboard-status td:nth-child(2) { font-size: 12px; }
+.product-dashboard .dashboard-status td:nth-child(3) { white-space: nowrap; }
+
+.product-dashboard .dashboard-status td:nth-child(4) {
+  color: #838D8F;
+  font-size: 10px;
+  font-weight: 400;
+  text-transform: uppercase;
+  }
+
+.product-dashboard .dashboard-status td h3 {
+  color: #3C3D41;
+  font-size: 13px;
+  line-height: 1.5em;
+  }
+
+.product-dashboard .dashboard-status td h3 a,
+.product-dashboard .dashboard-status td h3 a:active,
+.product-dashboard .dashboard-status td h3 a:focus,
+.product-dashboard .dashboard-status td h3 a:link,
+.product-dashboard .dashboard-status td h3 a:visited {
+  background-image: url("https://dl.dropboxusercontent.com/u/398106089/product-dashboard/images/icons/text-doc.png");
+  background-position: right center;
+  background-repeat: no-repeat;
+  color: #3C3D41;
+  padding-right: 18px;
+  }
+
+.product-dashboard .dashboard-status td h3 a:hover {
+  color: #3C3D41;
+  text-decoration: underline;
+  }
+
+.product-dashboard .dashboard-status tr:last-child .theme {
+  border-radius: 0 0 0 4px;
+
+  -moz-border-radius: 0 0 0 4px;
+  -webkit-border-radius: 0 0 0 4px;
+  }
+
+
+/* Dashboard Page – Roadmap
+========================================*/
+
+.product-dashboard .dashboard-roadmap .confluence-embedded-file-wrapper img.confluence-embedded-image {
+  margin: 0;
+  max-width: 100%;
+  }
+
+.product-dashboard .dashboard-roadmap .roadmap-macro-view {
+  background-color: blue;
+  }
