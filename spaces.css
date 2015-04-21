@@ -59,8 +59,8 @@
 ========================================*/
 
 .product-dashboard {
-  /*background-color: #27282A;*/
-  background-color: #fff;
+  background-color: #27282A;
+  /*background-color: #fff;*/
   color: #838D8F;
   font-family: "Montserrat";
   font-size: 10px;
@@ -79,8 +79,8 @@
 .product-dashboard table {
   background-color: #fff;
   border-collapse: separate;
-  border: 1px solid #eee;
-  /*border: 0;*/
+  /*border: 1px solid #eee;*/
+  border: 0;
   border-radius: 4px;
   border-spacing: 0;
   margin-bottom: 0;
@@ -295,16 +295,12 @@
 ========================================*/
 
 .product-dashboard .dashboard-roadmap .confluence-embedded-file-wrapper img.confluence-embedded-image {
-  border: 1px solid #eee;
-  border-radius: 4px;
+  /*border: 1px solid #eee;
+  border-radius: 4px;*/
   margin: 0;
   max-width: 100%;
   padding: 0;
 
-  -moz-border-radius: 4px;
-  -webkit-border-radius: 4px;
-  }
-
-.product-dashboard .dashboard-roadmap .roadmap-macro-view {
-  background-color: blue;
+  /*-moz-border-radius: 4px;
+  -webkit-border-radius: 4px;*/
   }
