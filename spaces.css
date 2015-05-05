@@ -139,9 +139,35 @@
 .product-dashboard .dashboard-themes-and-metrics table.confluenceTable tr td { font-size: 12px; }
 
 .product-dashboard .dashboard-themes-and-metrics table.confluenceTable tr td strong {
+  display: block;
+  position: relative;
+  }
+
+.product-dashboard .dashboard-themes-and-metrics table.confluenceTable tr td .metric {
   color: #3C3D41;
+  display: block;
   font-size: 24px;
   line-height: 1.1em;
+  }
+
+.product-dashboard .dashboard-themes-and-metrics table.confluenceTable tr td .metric.down strong::after {
+  content: "\25BE";
+  color: #DA4E35;
+  display: inline-block;
+  font-size: 12px;
+  margin-left: 5px;
+  position: relative;
+  top: -5px;
+  }
+
+.product-dashboard .dashboard-themes-and-metrics table.confluenceTable tr td .metric.up strong::after {
+  content: "\25B4";
+  color: #3CA773;
+  display: inline-block;
+  font-size: 12px;
+  margin-left: 5px;
+  position: relative;
+  top: -5px;
   }
 
 .product-dashboard .dashboard-themes-and-metrics table.confluenceTable tr td {
