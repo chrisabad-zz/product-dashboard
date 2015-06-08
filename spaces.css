@@ -176,14 +176,30 @@
   }
 
 .product-dashboard .dashboard-themes-and-metrics table.confluenceTable tr:nth-child(2) td {
-  background-image: url("https://dl.dropboxusercontent.com/u/398106089/product-dashboard/images/icons/runner.png");
   background-position: 25px center;
   background-repeat: no-repeat;
   font-size: 10px;
   line-height: 1.2em;
   padding-left: 51px;
+  position: relative;
   text-transform: uppercase;
   width: 33.33%;
+  }
+
+.product-dashboard .dashboard-themes-and-metrics table.confluenceTable tr:nth-child(2) td a {
+  background-image: url("https://dl.dropboxusercontent.com/u/398106089/product-dashboard/images/icons/infocircle.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: block;
+  height: 15px;
+  overflow: hidden;
+  margin-top: -8px;
+  position: absolute;
+  right: 25px;
+  text-decoration: none;
+  text-indent: -5000px;
+  top: 50%;
+  width: 16px;
   }
 
 .product-dashboard .dashboard-themes-and-metrics table.confluenceTable tr:nth-child(2) td:nth-child(1) {
