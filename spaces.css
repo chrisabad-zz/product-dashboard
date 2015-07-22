@@ -102,7 +102,8 @@
 
 .product-dashboard table.confluenceTable th.confluenceTh,
 .product-dashboard table.confluenceTable th.confluenceTh .tablesorter-header-inner,
-.product-dashboard table.tablesorter > thead > tr > th {
+.product-dashboard table.tablesorter > thead > tr > th,
+.product-dashboard .dashboard-themes-and-metrics table.confluenceTable tr:nth-child(1) td {
   background-color: transparent;
   border: 0;
   color: #838D8F;
@@ -113,10 +114,12 @@
   }
 
 .product-dashboard table.confluenceTable th.confluenceTh,
-.product-dashboard table.tablesorter > thead > tr > th { padding: 11px 17px; }
+.product-dashboard table.tablesorter > thead > tr > th,
+.product-dashboard .dashboard-themes-and-metrics table.confluenceTable tr:nth-child(1) td { padding: 11px 17px; }
 
 .product-dashboard table.confluenceTable th.confluenceTh:nth-child(1),
-.product-dashboard table.confluenceTable th.confluenceTh:nth-child(1) .tablesorter-header-inner {
+.product-dashboard table.confluenceTable th.confluenceTh:nth-child(1) .tablesorter-header-inner,
+.product-dashboard .dashboard-themes-and-metrics table.confluenceTable tr:nth-child(1) td:nth-child(1) { /* stupid hack */
   color: #3C3D41;
   font-family: "Montserrat";
   font-size: 11px;
